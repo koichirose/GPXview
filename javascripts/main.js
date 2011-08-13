@@ -29,14 +29,13 @@ $(document).ready(function(){
 	//initialize();
 	$("#side").load("files.php");
 	$("#side a").live('click', function(e){
-		//var	fileLayer = new google.maps.KmlLayer(
-			////$(this).attr('href'),
-			//'http://dl.dropbox.com/u/757380/1313082730-07589-173.2.237.122.kml',
-			//{
-				//map:map
-			//});
-var ctaLayer = new google.maps.KmlLayer('http://dl.dropbox.com/u/757380/20110810_172133_001.gpx');
-  ctaLayer.setMap(map);
+		var	fileLayer = new google.maps.KmlLayer(
+			$(this).attr('href'),
+			{
+				map:map
+			});
+//var ctaLayer = new google.maps.KmlLayer($(this).attr('href'));
+  //ctaLayer.setMap(map);
 		e.preventDefault();
 	});
 });

@@ -110,6 +110,8 @@ Max. speed - 6.6km/h
 <ele>-30.600006568030615</ele>
 <time>2011-08-10T19:11:47Z</time>
 </trkpt>
+</trkseg>
+<trkseg>
 <trkpt lat="40.71856949" lon="-73.95638149">
 <ele>-43.599998474121094</ele>
 <time>2011-08-10T19:15:48Z</time>
